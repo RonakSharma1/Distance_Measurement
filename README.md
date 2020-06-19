@@ -1,5 +1,3 @@
-# MENTION THE NAME OF REPOSITORY FOR UNDISTORTION IN THE COMMENTS IN THE SCRIPT and video
-
 # Aim
 This algorithm overlays a line of specified length(in cm) on an image. The length of line, slope and starting point are provided by the user through a GUI.
 
