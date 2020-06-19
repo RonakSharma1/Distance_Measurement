@@ -27,7 +27,7 @@ class Example(QtGui.QWidget):
         self.pipe_multiplier=1
         
         #-----Loading Camera Matrix---------#
-        # Refer to xxxx Repository to understand this functionality
+        # Refer to 'Undistorting_FishEyeLens_Images' Repository to understand this functionality
 #        self.roi = np.loadtxt("mtx.txt", dtype='i', delimiter=',')
 #        self.newcameramtx = np.loadtxt("cameraMatrix.txt", dtype='i', delimiter=',')
 #        self.dist = np.loadtxt("dist.txt", dtype='i', delimiter=',')
@@ -126,7 +126,7 @@ class Example(QtGui.QWidget):
         
         # Image Pre-Processing
         #---------IMAGE UNDISTORTION----------#
-#        #Refer to xxxxxx Repository for using this Funtionality-----
+#        #Refer to 'Undistorting_FishEyeLens_Images' Repository for using this Funtionality-----
 #        img = cv2.imread('test1.png')
 #        h,w = img.shape[:2]
 #        self.newcameramtx, self.roi=cv2.getOptimalNewCameraMatrix(self.mtx,self.dist,(w,h),1,(w,h))
